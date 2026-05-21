@@ -29,7 +29,8 @@ export const platformStats = [
   { label: "Active Projects", value: "128" },
   { label: "Contributors", value: "54" },
   { label: "Domains Issued", value: "1,240" },
-  { label: "Open Source PRs", value: "386" },
+  // Temporarily hidden per request
+  // { label: "Open Source PRs", value: "386" },
 ];
 
 export const howItWorks = [

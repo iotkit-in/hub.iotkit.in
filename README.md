@@ -51,7 +51,7 @@ Supporting open-source IoT builders with free infrastructure and public reach. h
 - Active Projects: 128
 - Contributors: 54
 - Domains Issued: 1,240
-- Open Source PRs: 386
+<!-- Open Source PRs: 386 -->
 
 ## Community Badges
 
