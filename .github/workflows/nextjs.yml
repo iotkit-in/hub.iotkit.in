@@ -63,11 +63,13 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
-      - name: Setup Bun (when using Bun)
+      - name: Install Bun (when using Bun)
         if: ${{ steps.detect-package-manager.outputs.manager == 'bun' }}
-        uses: oven-sh/bun-action@v1
-        with:
-          bun-version: 'latest'
+        run: |
+          # Install Bun via the official install script and add to PATH
+          curl -fsSL https://bun.sh/install | bash
+          echo "BUN_INSTALL_DIR=$HOME/.bun" >> $GITHUB_ENV
+          echo "$HOME/.bun/bin" >> $GITHUB_PATH
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
