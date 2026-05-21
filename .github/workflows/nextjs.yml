@@ -57,7 +57,14 @@ jobs:
             echo "runner=bun" >> $GITHUB_OUTPUT
             exit 0
           fi
-      - name: Setup Node
+      - name: Setup Node (no cache for Bun)
+        if: ${{ steps.detect-package-manager.outputs.manager == 'bun' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Node (with cache)
+        if: ${{ steps.detect-package-manager.outputs.manager != 'bun' }}
         uses: actions/setup-node@v4
         with:
           node-version: "20"
