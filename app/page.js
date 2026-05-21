@@ -200,21 +200,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.section} id="community-stats">
-        <div className={styles.sectionHeading}>
-          <span>Community Stats</span>
-          <h2>Healthy activity from builders who actually ship.</h2>
-        </div>
+      {/*
+        Community Stats section commented out per request
+        <section className={styles.section} id="community-stats">
+          <div className={styles.sectionHeading}>
+            <span>Community Stats</span>
+            <h2>Healthy activity from builders who actually ship.</h2>
+          </div>
 
-        <div className={styles.statsBlock}>
-          {platformStats.map((stat) => (
-            <article className={styles.statsCard} key={stat.label}>
-              <span className={styles.statsLabel}>{stat.label}</span>
-              <span className={styles.statsValueLarge}>{stat.value}</span>
-            </article>
-          ))}
-        </div>
-      </section>
+          <div className={styles.statsBlock}>
+            {platformStats.map((stat) => (
+              <article className={styles.statsCard} key={stat.label}>
+                <span className={styles.statsLabel}>{stat.label}</span>
+                <span className={styles.statsValueLarge}>{stat.value}</span>
+              </article>
+            ))}
+          </div>
+        </section>
+      */}
 
       <section className={styles.section} id="badges">
         <div className={styles.sectionHeading}>
