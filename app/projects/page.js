@@ -5,7 +5,7 @@ import { featuredProjects } from "../site-content";
 import { projectSubmissionFields } from "../forms";
 
 export const metadata = {
-  title: "Projects | app.iotkit.in",
+  title: "Projects | hub.iotkit.in",
   description: "Featured IoT projects and a future-ready layout for API or database powered listings.",
 };
 

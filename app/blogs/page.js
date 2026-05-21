@@ -5,7 +5,7 @@ import { latestBlogs } from "../site-content";
 import { blogSubmissionFields } from "../forms";
 
 export const metadata = {
-  title: "Blogs | app.iotkit.in",
+  title: "Blogs | hub.iotkit.in",
   description: "Latest IoT guides, tutorials, and practical maker-focused blog layouts.",
 };
 

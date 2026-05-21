@@ -3,6 +3,6 @@
 		"subdomain": "weatherstation",
 		"type": "CNAME",
 		"value": "my-project.vercel.app",
-		"domain":"weatherstation.app.iotkit.in"
+		"domain":"weatherstation.hub.iotkit.in"
 	}
 ]

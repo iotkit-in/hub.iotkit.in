@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "app.iotkit.in | Free Subdomains for IoT Projects",
+  title: "hub.iotkit.in | Free Subdomains for IoT Projects",
   description: "Free subdomains for IoT dashboards, hardware panels, prototypes, and maker projects powered by IoTKit.",
 };
 

@@ -52,7 +52,7 @@ export default function Home() {
           <div className={styles.eyebrow}>Open infrastructure for makers</div>
           <h1>Free Subdomains for IoT Projects</h1>
           <p>
-            Deploy dashboards, APIs, hardware panels, and prototypes using app.iotkit.in.
+            Deploy dashboards, APIs, hardware panels, and prototypes using hub.iotkit.in.
             A clean public home for student builds, ESP32 apps, Raspberry Pi projects, MQTT dashboards,
             and open source hardware demos.
           </p>
@@ -91,7 +91,7 @@ export default function Home() {
         <aside className={`${styles.heroPanel} ${styles.floaty}`}>
           <div className={styles.panelTitle}>Example domain</div>
           <div className={styles.panelCardAccent}>
-            <strong>weatherstation.app.iotkit.in</strong>
+            <strong>weatherstation.hub.iotkit.in</strong>
             <p>Your dashboard can look and feel public from day one.</p>
           </div>
 
@@ -185,7 +185,7 @@ export default function Home() {
           <span>Why We Started</span>
           <h2>Supporting open-source IoT builders with free infrastructure and public reach.</h2>
           <p>
-            app.iotkit.in exists for students, startups, robotics clubs, makerspaces, and teams
+            hub.iotkit.in exists for students, startups, robotics clubs, makerspaces, and teams
             that need a trustworthy home for public IoT projects without the overhead of managing everything alone.
           </p>
         </div>

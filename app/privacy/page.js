@@ -2,8 +2,8 @@ import MarketingShell from "../components/MarketingShell";
 import styles from "../page.module.css";
 
 export const metadata = {
-  title: "Privacy Policy | app.iotkit.in",
-  description: "Privacy policy for app.iotkit.in and the open source IoT subdomain platform.",
+  title: "Privacy Policy | hub.iotkit.in",
+  description: "Privacy policy for hub.iotkit.in and the open source IoT subdomain platform.",
 };
 
 export default function PrivacyPage() {

@@ -17,7 +17,7 @@ export default function MarketingShell({ children }) {
         <Link className={styles.brand} href="/">
           <span className={styles.brandMark}>I</span>
           <span>
-            app.iotkit.in
+            hub.iotkit.in
             <small>Free subdomains for IoT projects</small>
           </span>
         </Link>
@@ -49,8 +49,8 @@ export default function MarketingShell({ children }) {
       <main className={styles.main}>{children}</main>
 
       <footer className={styles.footer}>
-        <div>
-          <div className={styles.footerBrand}>app.iotkit.in</div>
+          <div>
+          <div className={styles.footerBrand}>hub.iotkit.in</div>
           <p>Free subdomains for IoT dashboards, APIs, ESP32 apps, Raspberry Pi projects, and open source maker builds.</p>
         </div>
 

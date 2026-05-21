@@ -1,8 +1,8 @@
-# app.iotkit.in
+# hub.iotkit.in
 
 Open infrastructure for makers — Free subdomains for IoT projects.
 
-Deploy dashboards, APIs, hardware panels, and prototypes using app.iotkit.in. A clean public home for student builds, ESP32 apps, Raspberry Pi projects, MQTT dashboards, and open source hardware demos.
+Deploy dashboards, APIs, hardware panels, and prototypes using hub.iotkit.in. A clean public home for student builds, ESP32 apps, Raspberry Pi projects, MQTT dashboards, and open source hardware demos.
 
 ## Get Started
 
@@ -44,7 +44,7 @@ Deploy dashboards, APIs, hardware panels, and prototypes using app.iotkit.in. A 
 
 ## Why We Started
 
-Supporting open-source IoT builders with free infrastructure and public reach. app.iotkit.in exists for students, startups, robotics clubs, makerspaces, and teams that need a trustworthy home for public IoT projects without the overhead of managing everything alone.
+Supporting open-source IoT builders with free infrastructure and public reach. hub.iotkit.in exists for students, startups, robotics clubs, makerspaces, and teams that need a trustworthy home for public IoT projects without the overhead of managing everything alone.
 
 ## Community Stats
 
@@ -62,4 +62,4 @@ Supporting open-source IoT builders with free infrastructure and public reach. a
 
 ---
 
-This repository powers the static marketing site and content for app.iotkit.in. Use `npm run dev` (or `bun dev`) to run locally and `npm run build` / `bun build` then `bun run export` to generate the static `out/` folder used by the GitHub Pages workflow.
+This repository powers the static marketing site and content for hub.iotkit.in. Use `npm run dev` (or `bun dev`) to run locally and `npm run build` / `bun build` then `bun run export` to generate the static `out/` folder used by the GitHub Pages workflow.

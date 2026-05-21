@@ -3,8 +3,8 @@ import styles from "../page.module.css";
 import { howItWorks, starterTemplates } from "../site-content";
 
 export const metadata = {
-  title: "Docs | app.iotkit.in",
-  description: "Documentation layout for the app.iotkit.in subdomain workflow and starter templates.",
+  title: "Docs | hub.iotkit.in",
+  description: "Documentation layout for the hub.iotkit.in subdomain workflow and starter templates.",
 };
 
 export default function DocsPage() {

@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import { domainRequestFields } from "../forms";
 
 export const metadata = {
-  title: "Contact | app.iotkit.in",
+  title: "Contact | hub.iotkit.in",
   description: "Contact form for subdomain requests, support, and partnership inquiries.",
 };
 

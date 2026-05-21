@@ -2,8 +2,8 @@ import MarketingShell from "../components/MarketingShell";
 import styles from "../page.module.css";
 
 export const metadata = {
-  title: "Terms & Conditions | app.iotkit.in",
-  description: "Terms and conditions for using app.iotkit.in and its free subdomain workflow.",
+  title: "Terms & Conditions | hub.iotkit.in",
+  description: "Terms and conditions for using hub.iotkit.in and its free subdomain workflow.",
 };
 
 export default function TermsPage() {

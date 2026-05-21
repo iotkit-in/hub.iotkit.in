@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import { badges, platformStats, whyWeStarted } from "../site-content";
 
 export const metadata = {
-  title: "Community | app.iotkit.in",
+  title: "Community | hub.iotkit.in",
   description: "Community stats, mission, and recognition for open source IoT builders.",
 };
 
