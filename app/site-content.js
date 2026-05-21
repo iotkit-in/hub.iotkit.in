@@ -4,7 +4,7 @@ export const primaryNav = [
   { label: "Blogs", href: "/blogs" },
   { label: "Docs", href: "/docs" },
   { label: "LinkedIn", href: "https://www.linkedin.com", external: true },
-  { label: "GitHub", href: "https://github.com", external: true },
+  { label: "GitHub", href: "https://github.com/iotkit-in/hub.iotkit.in", external: true },
 ];
 
 export const footerSections = {
@@ -15,7 +15,7 @@ export const footerSections = {
   ],
   resources: [
     { label: "Docs", href: "/docs" },
-    { label: "GitHub", href: "https://github.com", external: true },
+    { label: "GitHub", href: "https://github.com/iotkit-in/hub.iotkit.in", external: true },
     { label: "API", href: "/docs#api" },
   ],
   legal: [

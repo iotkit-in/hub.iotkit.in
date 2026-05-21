@@ -37,7 +37,7 @@ export default function MarketingShell({ children }) {
         </nav>
 
         <div className={styles.headerActions}>
-          <Link className={styles.ghostButton} href="https://github.com/iotkit-in/app/cname.json" target="_blank" rel="noopener noreferrer">
+          <Link className={styles.ghostButton} href="https://github.com/iotkit-in/hub.iotkit.in/blob/main/cname.json" target="_blank" rel="noopener noreferrer">
             Apply for Subdomain
           </Link>
           <Link className={styles.solidButton} href="/docs">
